@@ -747,19 +747,47 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*Perintah ini Khusus ArullOfc*',
-        owner: '*Perintah ini Khusus ArullOfc*',
-        mods: '*Perintah ini hanya dapat digunakan oleh* _*Moderator*_ !',
-        premium: '*Perintah ini hanya untuk member* _*Premium*_ !',
-        group: '*Perintah ini hanya dapat digunakan di grup!*',
-        private: '*Perintah ini hanya dapat digunakan di Chat Pribadi!*',
-        admin: '*Khusus Admin Cokk🗿*',
-        botAdmin: '*Bot Aja Bukan Admin Anj ‼️*',
-        unreg: '*Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:*\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
-        restrict: 'Fitur ini di *disable*!'
+    rowner: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    owner: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    mods: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    premium: `╭─֍〔 ıll *PREMIUM* llı 〕֍─
+⬡ Fitur ini hanya tersedia untuk user *Premium*
+╰─────────────────֍`,
+    group: `╭─֍〔 ıll *GROUP* llı 〕֍─
+⬡ Fitur ini hanya dapat digunakan didalam grup!!
+╰─────────────────֍`,
+    private: `╭─֍〔 ıll *PRIVATE* llı 〕֍─
+⬡ Fitur ini hanya dapat digunakan diprivate chat
+╰─────────────────֍`,
+    admin: `╭─֍〔 ıll *ADMIN GROUP* llı 〕֍─
+⬡ Fitur ini hanya tersedia untuk admin grup!!
+╰─────────────────֍`,
+    botAdmin: `╭─֍〔 ıll *WARNING* llı 〕֍─
+⬡ Fitur ini tidak dapat work, bot tidak menjadi admin
+╰─────────────────֍`,
+    restrict: 'Fitur ini di *disable*!',
     }[type]
-    if (msg) return m.reply(msg)
-}
+  if (msg) return conn.sendBut(m.chat, msg, '📮 Silahkan pilih menu dibawah ini', 'Menu', '.menu', m)
+ let unreg = {
+  unreg: `
+┏━━━〔 ıll 𝐔𝐍𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━㉿
+⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
+⬡ Sebelum melihat fitur bot, lebih baik register dulu
+⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
+┗━━━━━━━━━━━━━━━━━━㉿
+┏━━〔 ıll CONTOH llı 〕━㉿
+⬡ #daftar namamu.umurmu
+⬡ #daftar @${m.sender.split`@`[0]}.18
+┗━━━━━━━━━━㉿ `
+  }[type]
+ if (unreg) return conn.sendBut(m.chat, unreg, '📮 Silahkan Klik reg dibawah ini', 'Register', `.daftar @${m.sender.split`@`[0]}.18`, m)
+ }
 
 let fs = require('fs')
 let chalk = require('chalk')
