@@ -9,7 +9,8 @@ handler.help = ['linkgroup']
 handler.tags = ['owner']
 handler.command = /^link(g(c)?ro?up)?$/i
 
-handler.group = true
+handler.group = false
+handler.owner = true
 //handler.botAdmin = true
 
 module.exports = handler
