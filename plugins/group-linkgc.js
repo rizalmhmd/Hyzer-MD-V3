@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
   }
 }
 handler.help = ['linkgroup']
-handler.tags = ['group']
+handler.tags = ['owner']
 handler.command = /^link(g(c)?ro?up)?$/i
 
 handler.group = true
