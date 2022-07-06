@@ -125,7 +125,7 @@ global.reloadHandler = function (restatConn) {
   }
 
   conn.welcome = '*Hallo* @user\n*Welcome To Groub* @subject\n*Jangan Lupa Intro*\n*Nama:*\n*Asal:*\n*Umur:*'
-  conn.bye = '*Keluar Tuh Si* @user\n*Dari Group* @subject\n\n*Dadahh👋*'
+  conn.bye = '*Keluar Tuh Si* @user\n*Dari* @subject\n\n*Dadahh👋*'
   conn.spromote = '@user *sekarang admin!*'
   conn.sdemote = '@user *sekarang bukan admin!*'
   conn.sDesc = '*Deskripsi telah diubah ke* \n@desc'
