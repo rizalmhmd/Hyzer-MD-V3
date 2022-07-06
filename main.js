@@ -124,8 +124,8 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '*Hallo* @user\n*Welcome To Groub* @subject\n*Jangan Lupa Intro*\n*Nama:*\n*Asal:*\n*Umur:*'
-  conn.bye = '*Keluar Tuh Si* @user\n\n*Dadahh👋*'
+  conn.welcome = '*HAI*, @user!\n\n*WELCOME TO GC* @subject\n\n*-----------------KARTU INTRO-----------------*\n*┏━━━━━━꧁۝☆ꦿ⃔¤۝꧂━━━━━┓*\n*╠➣NAMA :*\n*╠➣UMUR :*\n*╠➣KELAS :*\n*╠➣JNS KELAMIN :*\n*╠➣ASKOT :*\n*╠➣HOBI :*\n*╠➣AGAMA :*\n*┗━━━━━━꧁۝☆ꦿ⃔¤۝꧂━━━━━┛*'
+  conn.bye = '@user 𝙆𝙀𝙇𝙐𝘼𝙍 𝘿𝘼𝙍𝙄 @subject'
   conn.spromote = '@user *sekarang admin!*'
   conn.sdemote = '@user *sekarang bukan admin!*'
   conn.sDesc = '*Deskripsi telah diubah ke* \n@desc'
