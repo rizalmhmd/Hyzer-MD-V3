@@ -6,8 +6,8 @@ global.prems = ['']
 //=============『 Info Owner 』============== //
 global.nameowner = 'Zall'
 global.numberowner = '6281333154367'
-global.instagram = 'https://instagram.com/sahrulwara_____'
-global.github = 'https://github.com/sahrull11'
+global.instagram = 'https://instagram.com/zallzall02'
+global.github = 'https://github.com/rizalmhmd'
 global.dana = '082322133457'
 global.pulsa = '081333154367'
 global.gopay = ''
@@ -15,7 +15,7 @@ global.gopay = ''
 //=============『 Info Bot 』=================//
 global.namebot = 'ROZZxBOTZ'
 global.gc = 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
-global.web = 'https://chat.whatsapp.com/GdXv5LxKfDPHJ4WOH2rNu5' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.web = 'https://github.com/rizalmhmd' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = 'Permanen 15.000\n1 bulan 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
@@ -23,7 +23,7 @@ global.fotonya1 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© AɾυʅʅBσƚȥMD'
+global.wm = 'ROZZxBOTZ'
 global.watermark = wm
 global.wm2 = '「 ArullBotzMD 」'
 global.wm3 = '© AɾυʅʅBσƚȥMD'
