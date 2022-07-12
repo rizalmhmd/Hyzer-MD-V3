@@ -25,8 +25,8 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'ROZZxBOTZ'
 global.watermark = wm
-global.wm2 = '「 ArullBotzMD 」'
-global.wm3 = '© AɾυʅʅBσƚȥMD'
+global.wm2 = '「 ROZZxBOTZ 」'
+global.wm3 = '© Zall'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*Stiker sedang dibuat*'
 global.packname = 'Sticker By'
-global.author = '© ArullOfc'
+global.author = '© Zall'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
