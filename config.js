@@ -21,8 +21,8 @@ global.price1 = 'Permanen 15.000\n1 bulan 10.000\n2 Minggu 7.000\n1 Minggu 5.000
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ini juga ganti 
-global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
-global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
+global.lolkey = 'azzbot' //biar mudah ngegantinya semisal apikeynya expired:v
+global.zenzkey = 'f9fccfcff1' //ganti jadi apikey lu kalau expired
 global.wm = 'ROZZxBOTZ'
 global.watermark = wm
 global.wm2 = '「 ROZZxBOTZ 」'
@@ -74,11 +74,6 @@ global.APIKeys = { // APIKey Here
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
-lolkey = 'azzbot'
-zekskey = 'apivinz'
-xteamkey = '524e9d1f64f72f79'
-zenzkey = 'f9fccfcff1'
-//xteam        MIMINETBOT
 //=============『 RPG GAMES 』================== //
 global.multiplier = 69 // The higher, The harder levelup
 global.rpg = {
