@@ -4,7 +4,7 @@ global.mods = []
 global.prems = [''] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Zall'
+global.nameowner = '𝚉𝚊𝚕𝚕'
 global.numberowner = '6281333154367'
 global.instagram = 'https://instagram.com/zallzall02'
 global.github = 'https://github.com/rizalmhmd'
@@ -25,8 +25,8 @@ global.lolkey = 'azzbot' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'f9fccfcff1' //ganti jadi apikey lu kalau expired
 global.wm = 'ROZZxBOTZ'
 global.watermark = wm
-global.wm2 = '「 ROZZxBOTZ 」'
-global.wm3 = '© Zall'
+global.wm2 = '「 𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕 」'
+global.wm3 = '© 𝚉𝚊𝚕𝚕'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*Stiker sedang dibuat*'
 global.packname = 'Sticker By'
-global.author = '© Zall'
+global.author = '© 𝚉𝚊𝚕𝚕'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
