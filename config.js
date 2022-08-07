@@ -77,6 +77,7 @@ global.APIKeys = { // APIKey Here
 lolkey = 'azzbot'
 zekskey = 'apivinz'
 xteamkey = '524e9d1f64f72f79'
+zenzkey = 'f9fccfcff1'
 //xteam        MIMINETBOT
 //=============『 RPG GAMES 』================== //
 global.multiplier = 69 // The higher, The harder levelup
