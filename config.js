@@ -74,6 +74,10 @@ global.APIKeys = { // APIKey Here
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
+lolkey = 'azzbot'
+zekskey = 'apivinz'
+xteamkey = '524e9d1f64f72f79'
+//xteam        MIMINETBOT
 //=============『 RPG GAMES 』================== //
 global.multiplier = 69 // The higher, The harder levelup
 global.rpg = {
