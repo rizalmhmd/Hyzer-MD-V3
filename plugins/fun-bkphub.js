@@ -1,4 +1,4 @@
-import fetch from 'node-fetch' 
+let fetch = require('node-fetch')
   if (command == 'caribokep') {
 if (!text) throw `Contoh penggunaan ${usedPrefix}${command} japan`
 try {
@@ -16,10 +16,11 @@ link: ${v.link}`.trim()
             ], m, fdoc)
 }
 
+handler.help = ['caribokep']
+handler.tags = ['asupan']
 handler.command = /^(caribokep)$/i
-handler.tags = ['bokep','premium']
-handler.premium = false
 handler.register = true
+
 
 
 module.exports = handler
