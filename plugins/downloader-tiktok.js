@@ -1,12 +1,10 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
-if (!args[0]) throw 'Uhm..url nya mana?'
-m.reply(wait)
-let res = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
-if (!res.ok) throw await res.text()
-let json = await res.json()
-if (!json.status) throw json
-await conn.sendFile(m.chat, link, 'tt.mp4', m)
+if (!args[0]) throw 'url nya mana ngenn?'
+let res = await fetch(`https://zenzapis.xyz/downloader/tiktok?apikey=f9fccfcff1&url=${args[0]}`)
+ if (!res.ok) throw await `${res.status} ${res.statusText}`
+    let json = await res.json()
+    await conn.sendButtonVid(m.chat, json.result.nowatermark, 'Nih Om', '@ZALLxBOTZ', `Thanks`, m)
 }
 
 handler.help = ['tiktok <url>']
