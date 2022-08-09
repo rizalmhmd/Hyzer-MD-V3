@@ -14,7 +14,7 @@ link: ${v.link}`.trim()
 handler.help = ['caribokep']
 handler.tags = ['asupan']
 handler.command = /^(caribokep)$/i
-handler.register = true
+handler.register = false
 
 
 
