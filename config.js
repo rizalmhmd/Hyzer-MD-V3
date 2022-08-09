@@ -13,7 +13,7 @@ global.pulsa = '081333154367'
 global.gopay = ''
 
 //=============『 Info Bot 』=================//
-global.namebot = 'ROZZxBOTZ'
+global.namebot = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕'
 global.gc = 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
 global.web = 'https://github.com/rizalmhmd' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = 'Permanen 15.000\n1 bulan 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
@@ -23,7 +23,7 @@ global.fotonya1 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ini juga ganti 
 global.lolkey = 'azzbot' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'f9fccfcff1' //ganti jadi apikey lu kalau expired
-global.wm = 'ROZZxBOTZ'
+global.wm = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕'
 global.watermark = wm
 global.wm2 = '「 𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕 」'
 global.wm3 = '© 𝚉𝚊𝚕𝚕'
