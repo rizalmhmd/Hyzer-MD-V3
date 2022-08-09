@@ -10,5 +10,5 @@ let res = await fetch(`https://api.xteam.xyz/dl/tiktok?url=${args[0]}&APIKEY=Nez
 handler.command = /^tiktok$/i
 handler.tags = ['downloader']
 handler.help = ['tiktok']
-handler.limit = true
+handler.limit = false
 module.exports = handler
