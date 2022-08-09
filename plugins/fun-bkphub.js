@@ -88,9 +88,9 @@ conn.sendFile(m.chat, x.result.files.high, 'asupan.mp4', caption, m)
 
 }
 handler.command = handler.help = ['caribokep', 'caribokep2', 'dlbokep']
-handler.tags = ['bokep']
+handler.tags = ['bokep','premium']
 handler.premium = false
 handler.register = true
 
-export default handler
 
+module.exports = handler
