@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn, args }) => {
 if (!args[0]) throw 'Uhm..url nya mana?'
 let res = await fetch(`https://api.lolhuman.xyz/api/tiktokmusic?apikey=${lolkey}&url=${args[0]}`)
-await conn.sendFile(m.chat, link, 'tt.audio', m)
+await conn.sendFile(m.chat, 'tt.audio', m)
 }
 
 
