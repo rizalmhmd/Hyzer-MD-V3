@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
     if (!text) throw 'Cari apa?'
 let f = await fetch(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=azzbot&query=${text}`)
-let str = json.result.map((v, index) => {
+let res = esult.map((v, index) => {
         return `${1 + index}. Judul *${v.title}*
 views: ${v.views}
 duration: ${v.duration}
