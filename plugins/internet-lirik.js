@@ -1,14 +1,24 @@
+// Pngocok handal
+
 let fetch = require('node-fetch')
-let handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} dandelions`
-  let res = await fetch('https://zenzapis.xyz/searching/kazelyrics?query=${text}&apikey=f9fccfcff1'))
-  if (!res.ok) throw await `${res.status} ${res.statusText}`
+let handler = async (m, { text }) => {
+m.reply(wait)
+  let res = await fetch(global.API('https://some-random-api.ml', '/lyrics', {
+    title: text
+  }))
+  if (!res.ok) throw await res.text()
   let json = await res.json()
-  if (!json.status) throw json
-  m.reply(json.result)
+  if (!json.thumbnail.genius) throw json
+  conn.sendFile(m.chat, json.thumbnail.genius, '', `
+*${json.title}*
+_${json.author}_\n
+${json.lyrics}\n\n
+${json.links.genius}
+`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
+
 }
-handler.help = ['lirik'].map(v => v + ' <teks>')
+handler.help = ['lirik'].map(v => v + ' <Apa>')
 handler.tags = ['internet']
-handler.command = /^(lirik|lyrics?)$/i
+handler.command = /^(lirik|lyrics|lyric)$/i
 
 module.exports = handler
