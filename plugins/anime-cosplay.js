@@ -1,6 +1,6 @@
+let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-let hyzer = 'https://api.zacros.my.id/randomimg/cosplay'
-    conn.sendButtonImg(m.chat, hyzer, teksfoto, wm2, 'NEXT', '.cosplay', m)
+  conn.sendFile(m.chat, 'https://rest-beni.herokuapp.com/api/randomimage/cosplay', 'Nihh Om', wm, m)
 }
 handler.help = ['cosplay']
 handler.tags = ['anime']
