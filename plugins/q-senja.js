@@ -1,3 +1,4 @@
+let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix, command }) => {
   let res = await fetch('https://raw.githubusercontent.com/irwanx/db/master/kata-kata/senja.txt')
   let txt = await res.text()
