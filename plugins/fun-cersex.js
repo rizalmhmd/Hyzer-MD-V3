@@ -1,21 +1,28 @@
 let fetch = require('node-fetch')
-let handler = async (m, { text }) => {
-  let url = await fetch('https://api-xcoders.xyz/api/random/cersex?apikey=xcoders')
-  let cersex = await url.json()
-let hasil = `
-*Powered By ${global.wm}*
-
-JUDUL : ${cersex.result.title}
-TANGGAL : ${cersex.result.date}
-
-${cersex.result.cerita}
-`.trim()
-
-  m.reply(hasil)
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+        let json = await fetch(`https://api-xcoders.xyz/api/random/cersex?apikey=xcoders`)
+        let jsons = await json.json()
+        let x = jsons.result
+        let images = x.thumbnail
+        let buttons = [
+                    {buttonId: `cersex`, buttonText: {displayText: '➡️➡️Next Image➡️➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: images },
+                    caption: `*⎔┉━「 Cersex 」━┉⎔*
+🤠 *Query* : ${x.title}
+ ${x.date}
+ 
+ ${x.cerita}
+`,
+                    footer: conn.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 handler.help = ['cersex']
 handler.tags = ['fun']
-handler.command = /^cersex$/i
-handler.limit = false
+handler.command = /^(cersex)$/i
 
 module.exports = handler
