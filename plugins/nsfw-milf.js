@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-let nyenye = `https://zenzapis.xyz/randomanime/milf?apikey=f9fccfcff1`
-  conn.sendButtonImg(m.chat, nyenye, 'Nih', wm2, 'Next', `.milf`, m) 
+let milf = `https://api.lolhuman.xyz/api/random/nsfw/milf?apikey=azzbot`
+  conn.sendButtonImg(m.chat, milf, 'Nih', wm2, 'Next', `.milf`, m) 
 }
 
 handler.help = ['milf']
