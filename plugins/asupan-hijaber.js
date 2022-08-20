@@ -1,6 +1,7 @@
+let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-let api-hyzer = 'https://api.zacros.my.id/asupan/hijaber'
-    conn.sendButtonImg(m.chat, api-hyzer, 'Nih', wm2, 'NEXT', '.hijaber', m)
+let hijaber = 'https://api.zacros.my.id/asupan/hijaber'
+    conn.sendButtonImg(m.chat, hijaber, 'Nih', wm2, 'NEXT', '.hijaber', m)
 }
 handler.help = ['hijaber']
 handler.tags = ['asupan']
