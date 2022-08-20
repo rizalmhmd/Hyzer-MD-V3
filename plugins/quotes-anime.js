@@ -1,26 +1,15 @@
-let axios = require("axios");
+let fetch = require('node-fetch')
 let handler = async(m, { conn, text }) => {
-
-	axios.get(`https://videfikri.com/api/anime/randomquoteanime`).then ((res) => {
-	 	let hasil = `${res.data.result.quotes}`
-
-    conn.reply(m.chat, hasil, m)
-	})
+  let res = await (await fetch('https://katanime.vercel.app/api/getrandom?limit=1'))
+  if (!res.ok) throw await res.text()
+  let json = await res.json()
+  if(!json.result[0]) throw json
+  let { indo, character, anime } = json.result[0]
+  conn.sendButton(m.chat, `${indo}\n\nBy: ~ _${character}_ ~`, `Anime:\n${anime}`, [['Kata² Anime', '.quotesanime']], m)
 }
-handler.help = ['quoteanime']
-handler.tags = ['anime']
-handler.command = /^(quoteanime)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
 
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
+handler.help = ['quotesanime']
+handler.tags = ['quotes']
+handler.command = /^(quotesanime)$/i
 
 module.exports = handler
