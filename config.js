@@ -21,7 +21,7 @@ global.price1 = 'Permanen 15.000\n1 bulan 10.000\n2 Minggu 7.000\n1 Minggu 5.000
 //=======『 Tampilan Dan Lainnya 』============//
 global.fotonya1 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ganti jadi foto bot mu
 global.fotonya2 = 'https://telegra.ph/file/d6b8427c43c0bf596c1e2.jpg' //ini juga ganti 
-global.lolkey = 'azzbot' //biar mudah ngegantinya semisal apikeynya expired:v
+global.lolkey = 'ee99d6df5f8c5eaf7667a90d' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'f9fccfcff1' //ganti jadi apikey lu kalau expired
 global.wm = '𝙕𝘼𝙇𝙇𝙭𝘽𝙊𝙏𝙕'
 global.watermark = wm
@@ -69,7 +69,7 @@ global.APIKeys = { // APIKey Here
   'https://zenzapis.xyz': 'f9fccfcff1',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'nyyxz-bot',
-  'https://api.lolhuman.xyz': 'azzbot',
+  'https://api.lolhuman.xyz': 'ee99d6df5f8c5eaf7667a90d',
   'https://api.vhtear.com': 'sayahafiz',
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
   'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
