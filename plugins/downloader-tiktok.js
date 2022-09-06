@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 let fs = require('fs')
 let handler = async (m, { conn, args }) => {
 if (!args[0]) throw 'Uhm..url nya mana?'
-let res = await fetch(`https://zenzapis.xyz/downloader/tiktok?apikey=f9fccfcff1&url=${args[0]}`)
+let res = await fetch(`https://api.zeeoneofc.xyz/api/downloader/tiktok?url=${args[0]}&apikey= uNdFM7fR`)
     if (!res.ok) throw await `${res.status} ${res.statusText}`
     let json = await res.json()
     await conn.sendButtonVid(m.chat, json.result.nowm, 'Nih Om', watermark, 'Thanks', `Thanks`, m)
