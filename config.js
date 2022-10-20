@@ -1,11 +1,11 @@
 //=============『 Utama 』================== //
-global.owner = ['6281333154367','6281226278215'] 
+global.owner = ['6281333154367'] 
 global.mods = [] 
 global.prems = [''] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = '𝚉𝚊𝚕𝚕',Fauqi'
-global.numberowner = '6281333154367','6281226278215'
+global.nameowner = '𝚉𝚊𝚕𝚕'
+global.numberowner = '6281333154367'
 global.instagram = 'https://instagram.com/zallzall02'
 global.github = 'https://github.com/rizalmhmd'
 global.dana = '082322133457'
