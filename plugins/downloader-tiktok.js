@@ -5,7 +5,7 @@ if (!args[0]) throw 'Uhm..url nya mana?'
 let res = await fetch(`https://zenzapis.xyz/downloader/musically?apikey=f9fccfcff1&url=${args[0]}`)
     if (!res.ok) throw await res.text()
 let json = await res.json()
-    await conn.sendButtonVid(m.chat, json.result.nowm, 'Nih Om', watermark, 'Thanks', `Thanks`, m)
+    await conn.sendButtonVid(m.chat, json.result.url_nowm, 'Nih Om', watermark, 'Thanks', `Thanks`, m)
 }
 handler.command = /^tiktok$/i
 handler.tags = ['downloader']
